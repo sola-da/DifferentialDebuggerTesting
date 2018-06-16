@@ -19,6 +19,6 @@
 | Firefox | ```let```-bound variable shown with wrong value from previous scope | https://bugzilla.mozilla.org/show_bug.cgi?id=1363328 | Confirmed |
 | Firefox | Function parameter with same name has wrong value | https://bugzilla.mozilla.org/show_bug.cgi?id=1362432 | Reported |
 | Firefox | Debugger pauses at last statement, even if dead code | https://bugzilla.mozilla.org/show_bug.cgi?id=1370648 | Fixed |
-| Firefox | Two steps needed to show return value at closing brace | https://bugzilla.mozilla.org/show_bug.cgi?id=923975 | Already reported independently |
+| Firefox | Two steps needed to show return value at closing brace | https://bugzilla.mozilla.org/show_bug.cgi?id=923975, then moved to https://github.com/devtools-html/debugger.html/issues/3390 | (Already reported independently) Fixed |
 | Firefox | Cannot set breakpont at some operators like && and === | https://bugzilla.mozilla.org/show_bug.cgi?id=1417196 | Reported |
-| Firefox | Breakpoint is hit again after a step, line seems to be executed twice | https://bugzilla.mozilla.org/show_bug.cgi?id=1417240 | Reported |
+| Firefox | Breakpoint is hit again after a step, line seems to be executed twice | https://bugzilla.mozilla.org/show_bug.cgi?id=1417240, then moved to https://github.com/devtools-html/debugger.html/issues/4013 | Fixed |
