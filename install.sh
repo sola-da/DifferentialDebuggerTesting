@@ -1,4 +1,5 @@
 #!/bin/sh
+# tested on Ubuntu 18.04 LTS
 # prerequisites
 sudo apt install git
 sudo apt install curl unzip tar
