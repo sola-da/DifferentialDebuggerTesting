@@ -13,9 +13,11 @@ with Ubuntu 18.04 LTS, all dependencies installed, and this repository already c
 4. Run ```node ~/DifferentialDebuggerTesting/build/eval/run-tests.js```
 5. Firefox and Chromium browser windows are opening, new tabs are created, and the console should show output similar to
     ```
-    > asdaasd
+    > results/breakpointsPerLine0.1-breakpointRemoveProb0.2-maxActions20/sunspider-determ/3d-cube/seed0.log
+    > (more lines...)
     ``` 
-6. Abort the testing (Ctrl+C) and inspect the generated traces in ```~/DifferentialDebuggerTesting/results/```.
+6. Abort the testing (Ctrl+C) and inspect the generated traces in ```~/DifferentialDebuggerTesting/results/```. See
+the README for an overview and the organization of the test results.
 
 ## Option B: Install yourself
 
@@ -47,6 +49,7 @@ top-level directory).
  
     # Install Yarn, an alternative (to NPM) package manager for JavaScript, for building our implementation.
     $ curl -o- -L https://yarnpkg.com/install.sh | bash
+    $ source ~/.bashrc
     $ yarn --version
     > 1.7.0
  
