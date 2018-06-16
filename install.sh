@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # tested on Ubuntu 18.04 LTS
 # prerequisites
 sudo apt install git
