@@ -7,7 +7,7 @@ There are two options for running our implementation of differential testing on 
 If you just want to execute the tool and reproduce our results, the easiest way is to use a prepackaged virtual machine
 with Ubuntu 18.04 LTS, all dependencies installed, and this repository already cloned and built:
 
-1. Download the virtual machine image from https://drive.google.com/...
+1. Download the virtual machine image from https://drive.google.com/open?id=1pmCOrooEjYln3WTOTzqGz9u8XLbeJ_Nm
 2. Import into VirtualBox via _File_ > _Import Appliance..._
 3. Boot up (user: ```user```, password: ```user```) and open a terminal (Ctrl+Alt+T).
 4. Run ```node ~/DifferentialDebuggerTesting/build/eval/run-tests.js```
