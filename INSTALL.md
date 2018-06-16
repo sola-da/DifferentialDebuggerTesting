@@ -49,6 +49,7 @@ top-level directory).
  
     # Install Yarn, an alternative (to NPM) package manager for JavaScript, for building our implementation.
     $ curl -o- -L https://yarnpkg.com/install.sh | bash
+    # Add yarn to your PATH
     $ source ~/.bashrc
     $ yarn --version
     > 1.7.0

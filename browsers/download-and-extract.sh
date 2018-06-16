@@ -1,3 +1,4 @@
+#!/bin/bash
 # see https://superuser.com/questions/936432/how-do-i-install-a-previous-version-of-chrome
 curl https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2F464640%2Fchrome-linux.zip?alt=media > chromium-59.zip
 unzip -q chromium-59.zip
