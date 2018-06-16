@@ -17,7 +17,7 @@ import "../utils/flat-map";
 export const ChromeBrowser: Browser = {
     async start(): Promise<void> {
         spawn("yarn", ["chrome"]);
-        await delay(3000);
+        await delay(6000);
     },
 
     async close(): Promise<void> {

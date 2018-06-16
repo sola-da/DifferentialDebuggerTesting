@@ -21,7 +21,7 @@ const maxFirefoxRunsUntilRestart = 50;
 export const FirefoxBrowser: Browser = {
     async start(): Promise<void> {
         spawn("yarn", ["firefox"]);
-        await delay(6000);
+        await delay(10000);
     },
 
     async close(): Promise<void> {
