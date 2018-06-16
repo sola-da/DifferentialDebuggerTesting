@@ -1,4 +1,4 @@
-export const testcasesPath = "../programs-to-debug";
+export const testcasesPath = "./programs-to-debug";
 
 export const testcases = [
     "sunspider-determ/3d-cube",
